@@ -48,6 +48,7 @@ def main(argv):
                     server.close()
                     break
                 
+                
                 else:                
                     server.send(texto.encode())
                     data = server.recv(BUFFER_SIZE)
